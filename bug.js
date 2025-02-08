@@ -1,0 +1,1 @@
+The Firebase SDK may throw an error if you try to access a document before it has fully loaded. This can happen if you're using asynchronous functions, such as `getDoc()`, without properly handling the promise.
